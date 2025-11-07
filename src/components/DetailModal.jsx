@@ -1,5 +1,5 @@
 import React from 'react';
-import { STATUS_COLORS } from '../App'; // make sure STATUS_COLORS is exported from App.jsx
+import { STATUS_COLORS } from "../constants";
 
 export default function DetailModal({ selected, onClose }) {
   return (
